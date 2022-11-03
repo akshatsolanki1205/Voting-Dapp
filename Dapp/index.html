@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting Dapp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div id="head">Voting Dapp</div>
+      <div id="head2">Who's your favourite Entrepreneur?</div>
+
+      <div class="votebox">
+        <div class="names">
+          <div>
+            <span>Name: Elon Musk</span>
+
+            <div>
+              <br />
+              <li>Richest, buys whatever he wants.</li>
+              <li>alien?</li>
+              <li>People also call him Tony Stark</li>
+              <li>have many kids</li>
+              <li>One of the most famous entrepreneurs on earth</li>
+              <li>Can fluctuate the stock market with one tweet</li>
+              <li>
+                His first holiday experience was so good that he don't like
+                holidays now
+              </li>
+              <div>
+                <button onclick="VoteForElon()">Vote Elon 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  onfocus="this.value=''"
+                  value="minimum of 0.5 ethers"
+                />
+                <button onclick="ElonFunding()">Fund Him</button>
+              </div>
+
+              <h5></h5>
+            </div>
+          </div>
+
+          <img src="images/elonMuk.gif" alt="" id="elonm" />
+        </div>
+
+        <div class="names">
+          <div>
+            <span>Name: Mark Zuckerberg</span>
+
+            <div>
+              <br />
+              <li>Started Facebook in his dorm room.</li>
+              <li>Lizard?</li>
+              <li>Typical Nerd guy, introvert, don't like to talk(awkward)</li>
+              <li>Love technology, now making metaverse</li>
+              <li>
+                He also likes to buy.... his competitors(RIP whatsapp,instagram)
+              </li>
+              <li>Some people hate him but still use his social media apps.</li>
+              <div>
+                <button onclick="VoteForMark()">Vote Mark 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  value="minimum of 0.5 ethers"
+                  onfocus="this.value=''"
+                />
+                <button onclick="MarkFunding()">Fund Him</button>
+              </div>
+              <h5></h5>
+
+              <div id="TotalElonFunding"></div>
+            </div>
+          </div>
+          <img src="images/MZ.gif" alt="" id="mz" />
+        </div>
+
+        <div class="names">
+          <div>
+            <span
+              >Name: Osho aka bhagwan rajneesh(I don't know why is he in the
+              list)</span
+            >
+
+            <div>
+              <br />
+              <li>Had 90+ rolce royces</li>
+              <li>Enlightened</li>
+              <li>Called himself a spiritual playboy</li>
+              <li>
+                famous quote -> "democracy is a government of the people, by the
+                people, for the people............but the people are retarded.
+              </li>
+              <li>
+                So democracy is a government of the retarted, by the retarded,
+                for the retarded"
+              </li>
+              <li>Used to offend people.</li>
+              <li>
+                Had all the luxurious things, still never paid taxes and was a
+                sigma male
+              </li>
+              <li>People say he never born and never died</li>
+              <div>
+                <button onclick="VoteForOsho()">Vote Osho 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  value="minimum of 0.5 ethers"
+                  onfocus="this.value=''"
+                />
+                <button onclick="OshoFunding()">Fund Him</button>
+              </div>
+              <h5></h5>
+
+              <div id="TotalElonFunding"></div>
+            </div>
+          </div>
+
+          <img src="images/8-l5KX.gif" alt="" id="osho" />
+        </div>
+
+        <div class="names">
+          <div>
+            <span>Name: Jeff Bezos</span>
+            <div>
+              <br />
+              <li>Created amazon i don't know from where probably garage.</li>
+              <li>People say work culture isn't good in amazon😅</li>
+              <li>Can laugh on any thing</li>
+              <li>Have muscles like vin diesel</li>
+              <li>His girlfriend loves Leonardo Dcaprio</li>
+              <div>
+                <button onclick="VoteForJeff()">Vote Jeff 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  value="minimum of 0.5 ethers"
+                  onfocus="this.value=''"
+                />
+                <button onclick="JeffFunding()">Fund Him</button>
+              </div>
+              <h5></h5>
+
+              <div id="TotalElonFunding"></div>
+            </div>
+          </div>
+
+          <img src="images/k_22673211_640.gif" alt="" id="jeff" />
+        </div>
+
+        <div class="names">
+          <div>
+            <span>Name: Steve Jobs</span>
+            <div>
+              <br />
+              <li>Most famous entrepreneur</li>
+              <li>Rude</li>
+              <li>Had love-hate relationship with Gates</li>
+              <li>not into open source</li>
+              <li>
+                Apple co-founder Steve Wozniak notes that Jobs never learned how
+                to code.
+              </li>
+              <li>Loves "Autobiography of a yogi"</li>
+              <div>
+                <button onclick="VoteForSteve()">Vote Steve 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  value="minimum of 0.5 ethers"
+                  onfocus="this.value=''"
+                />
+                <button onclick="SteveFunding()">Fund Him</button>
+              </div>
+              <h5></h5>
+
+              <div id="TotalElonFunding"></div>
+            </div>
+          </div>
+
+          <img src="images/jobs.gif" alt="" id="steve" />
+        </div>
+
+        <div class="names">
+          <div>
+            <span>Name: Jack Ma</span>
+            <div>
+              <br />
+              <li>Have never give up attitude</li>
+              <li>Failed many times</li>
+              <li>Don't say anything bad about chinese government</li>
+              <li>For him AI is nothing but alibaba intelligence</li>
+              <li>Jack Ma didn't see his first computer until he was 31.</li>
+              <div>
+                <button onclick="VoteForJack()">Vote Jack 🤩</button>
+                <h5></h5>
+              </div>
+
+              <div>
+                <input
+                  type="text"
+                  value="minimum of 0.5 ethers"
+                  onfocus="this.value=''"
+                />
+                <button onclick="JackFunding()">Fund Him</button>
+              </div>
+              <h5></h5>
+
+              <div id="TotalElonFunding"></div>
+            </div>
+          </div>
+
+          <img src="images/Jack-Ma-laugh.gif" alt="" id="jack" />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
