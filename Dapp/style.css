@@ -1,7 +1,7 @@
 .main {
   text-align: center;
   background-color: rgb(71, 212, 109);
-  border-radius: 25px;
+  border-radius: 2vw;;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -19,59 +19,56 @@
 
 .names {
   font-family: "Open t;Sans", sans-serif;
-  margin: 40px;
+  margin: 2vw;
   background-color: black;
   color: white;
-  padding: 25px;
+  padding: 3vw;
   display: flex;
-  border-radius: 25px;
+  border-radius: 2vw;
 }
 
 #elonm {
   
-  margin-left: 300px;
-  width: 260px;
+  margin-left: 28vw;
+  width: 23vw;
 }
 
 #mz {
-  margin-left: 300px;
-  height: 230px;
+  margin-left: 30vw;
+  height: 16vw;
   
 }
 
 #jeff {
-  margin-left: 300px;
-  height: 280px;
+  margin-left: 36vw;;
+  height: 22vw;
 }
 
 #steve {
-  height: 200px;
-  margin-left: 200px;
+  height: 20vw;
+  margin-left: 20vw;
 }
 
 #jack {
-  height: 200px;
-  margin-left: 280px;
+  height: 18vw;
+  margin-left: 28vw;
 }
 
  #head {
-  border-radius: 6px;
+  border-radius: 4vw;
 
   background-color: black;
   color: white;
-  width: 120px;
-  left: 420px;
-
+  width: 10vw;
 }
 
 #head2 {
   font-family: "Poor Story", cursive;
   position: relative;
-  top: 10px;
-  font-size: 24px;
+  top: 0.5vw;
+  font-size: 2vw;
 } 
 
-.left {
-  float: left;
-}
+
+
 
